@@ -11,6 +11,8 @@
 		EAD70C3025AAE90700EBDDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD70C2F25AAE90700EBDDC6 /* ContentView.swift */; };
 		EAD70C3225AAE90C00EBDDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD70C3125AAE90C00EBDDC6 /* Assets.xcassets */; };
 		EAD70C3525AAE90C00EBDDC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD70C3425AAE90C00EBDDC6 /* Preview Assets.xcassets */; };
+		EAD70C3E25AAEE8300EBDDC6 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD70C3D25AAEE8300EBDDC6 /* CategoryImage.swift */; };
+		EAD70C4125AD6DB400EBDDC6 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD70C4025AD6DB400EBDDC6 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EAD70C3125AAE90C00EBDDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD70C3425AAE90C00EBDDC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAD70C3625AAE90C00EBDDC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD70C3D25AAEE8300EBDDC6 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
+		EAD70C4025AD6DB400EBDDC6 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				EAD70C2D25AAE90700EBDDC6 /* ExampleApp.swift */,
 				EAD70C2F25AAE90700EBDDC6 /* ContentView.swift */,
+				EAD70C3D25AAEE8300EBDDC6 /* CategoryImage.swift */,
+				EAD70C4025AD6DB400EBDDC6 /* CheckBox.swift */,
 				EAD70C3125AAE90C00EBDDC6 /* Assets.xcassets */,
 				EAD70C3625AAE90C00EBDDC6 /* Info.plist */,
 				EAD70C3325AAE90C00EBDDC6 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD70C4125AD6DB400EBDDC6 /* CheckBox.swift in Sources */,
 				EAD70C3025AAE90700EBDDC6 /* ContentView.swift in Sources */,
 				EAD70C2E25AAE90700EBDDC6 /* ExampleApp.swift in Sources */,
+				EAD70C3E25AAEE8300EBDDC6 /* CategoryImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
